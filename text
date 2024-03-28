@@ -16,3 +16,7 @@ git reset --mixed 커밋아이디 : 리셋인데 변동사항 지우지 말고 u
 < push / pull > 
 * git 이 파일 기록해두는 장소 : repository(저장소)
 * 온라인 repository (원격저장소)
+* 로컬 -> 원격저장소 업로드는
+    git push -u 원격저장소주소 올릴로컬브랜치명
+    원격저장주소 변수에 담기 : git remote add 변수명 주소
+    -u : 주소 기억하라는 뜻
