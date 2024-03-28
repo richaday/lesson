@@ -20,3 +20,12 @@ git reset --mixed 커밋아이디 : 리셋인데 변동사항 지우지 말고 u
     git push -u 원격저장소주소 올릴로컬브랜치명
     원격저장주소 변수에 담기 : git remote add 변수명 주소
     -u : 주소 기억하라는 뜻
+* 로컬저장소와 원격저장소에 있는 파일에 변동사항이 생기면 push 불가능
+* git pull 원격저장소주소 브랜치명 : 원격저장소 변경사항 내려받기
+
+
+< 협업 > 
+* git clone 저장소주소 : 원격 저장소에 있는 파일들 클론따기
+* 항상 pull 먼저 받아서 변동사항 확인 한 후 pull 해야함
+* git pull은 git fetch + git merge 임 (conflict 발생 가능)
+    git fetch : 원격저장소 신규 commit 가져오세요
