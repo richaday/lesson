@@ -1,0 +1,18 @@
+--restore (파일단위 복구)
+git restore 파일명 : 파일명이 최근 커밋 상태로 되돌리기
+git restore --source 커밋아이디 파일명 : 커밋아이디 시점으로 파일명 되돌리기
+git restore --staged 파일명 : staging에 올려놓은거 취소 가능
+
+(커밋단위 복구 / 커밋 취소하는 법 - 작업한 커밋 제거하는 커밋 생성)
+git revert 커밋아이디 : 커밋아이디 시점에서 일어난 커밋 제거 (Vim 에디터 뜨면 i로 입력 / :wp 로 저장 후 닫기)
+git revert 커밋아이디1 커밋아이디2 : 여러개 취소 가능
+git revert HEAD : 최근 커밋 취소 가능
+
+git reset --hard 커밋아이디 : 해당 커밋 아이디 상태로 모든것을 되돌림 (협업시엔 사용금지, 혼자 작업할때 쓰세요)
+git reset --soft 커밋아이디 : 리셋인데 변동사항 지우지 말고 스테이징 해놓기
+git reset --mixed 커밋아이디 : 리셋인데 변동사항 지우지 말고 unstage해놓기
+
+
+< push / pull > 
+* git 이 파일 기록해두는 장소 : repository(저장소)
+* 온라인 repository (원격저장소)
