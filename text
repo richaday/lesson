@@ -35,3 +35,7 @@ git reset --mixed 커밋아이디 : 리셋인데 변동사항 지우지 말고 u
     git branch 브랜치명
 - 새로운 브랜치에 push 하기
     git push origin(저장소이름) 브랜치명
+- 원격저장소 브랜치 merge 하고싶으면?
+    - pull request -> merge 요청임! / merge 하기전에 모두가 볼 수 있게 함
+    - create pull request 버튼!
+    - conflict 발생시 Resolve conflicts 버튼 눌러서 충돌 해결
