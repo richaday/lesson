@@ -29,3 +29,6 @@ git reset --mixed 커밋아이디 : 리셋인데 변동사항 지우지 말고 u
 * 항상 pull 먼저 받아서 변동사항 확인 한 후 pull 해야함
 * git pull은 git fetch + git merge 임 (conflict 발생 가능)
     git fetch : 원격저장소 신규 commit 가져오세요
+
+4/4 
+- 깃허브에 푸시 가자
